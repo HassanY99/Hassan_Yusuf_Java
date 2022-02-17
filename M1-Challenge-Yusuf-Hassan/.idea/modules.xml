@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02-CalculateObject/CalculateObject.iml" filepath="$PROJECT_DIR$/02-CalculateObject/CalculateObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConverterInterface/ConverterInterface.iml" filepath="$PROJECT_DIR$/ConverterInterface/ConverterInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05- CustomerComposition/CustomerComposition.iml" filepath="$PROJECT_DIR$/05- CustomerComposition/CustomerComposition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03- IceCreamClassDesign/IceCreamClassDesign.iml" filepath="$PROJECT_DIR$/03- IceCreamClassDesign/IceCreamClassDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/M1-Challenge-Yusuf-Hassan.iml" filepath="$PROJECT_DIR$/.idea/M1-Challenge-Yusuf-Hassan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-RPGInheritance/RPGInheritance.iml" filepath="$PROJECT_DIR$/04-RPGInheritance/RPGInheritance.iml" />
+    </modules>
+  </component>
+</project>
