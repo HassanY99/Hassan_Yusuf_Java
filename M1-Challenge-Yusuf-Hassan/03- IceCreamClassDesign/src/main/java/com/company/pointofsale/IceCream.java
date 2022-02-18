@@ -31,6 +31,16 @@ public class IceCream {
         }
     }
 
+    public boolean inHighStock(int quantity) {
+        boolean availableHigh = true;
+        boolean notAvailable = false;
+        if(quantity >= 30) {
+            return availableHigh;
+        } else {
+            return notAvailable;
+        }
+    }
+
     public String getFlavor() {
         return flavor;
     }

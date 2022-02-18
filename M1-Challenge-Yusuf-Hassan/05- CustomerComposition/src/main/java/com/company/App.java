@@ -23,11 +23,11 @@ public class App {
         customer.setRewardsMember(true);
 
         System.out.println("------ Customer Info -------");
-        System.out.println(customer.getFirstName());
-        System.out.println(customer.getLastName());
-        System.out.println(customer.getEmail());
-        System.out.println(customer.getPhoneNumber());
-        System.out.println(customer.isRewardsMember());
+        System.out.println("First Name: " + customer.getFirstName());
+        System.out.println("Last Name: " + customer.getLastName());
+        System.out.println("Email: " + customer.getEmail());
+        System.out.println("Phone Number: " + customer.getPhoneNumber());
+        System.out.println("Active rewards member: " + customer.isRewardsMember());
         System.out.println("Shipping Address: " + customer.getShippingAddress());
         System.out.println("Billing Address: " + customer.getBillingAddress());
 

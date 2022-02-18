@@ -37,7 +37,7 @@ public class Calculator {
     }
     public double divide(double a, double b) {
         double c = a / b;
-        System.out.println(a + "/ " + b + " = " + c);
+        System.out.println(a + "/" + b + " = " + c);
         return c;
     }
     public double multiply(double a, double b) {

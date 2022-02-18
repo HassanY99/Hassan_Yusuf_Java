@@ -25,4 +25,12 @@ public class IceCreamTest {
     public void getTotalSalesOfFlavor() {
         assertEquals(178.5, iceCream.totalSalesForAFlavor(iceCream.getFlavor(), iceCream.getPrice(), iceCream.getQuantity()), 0.01);
     }
+
+    @Test
+    public void shouldGetAvailableIceCreamsThatAreInHighStock() {
+        assertEquals(true, iceCream.inHighStock(50));
+        assertEquals(true, iceCream.inHighStock(30));
+        assertEquals(false, iceCream.inHighStock(10));
+        assertEquals(false, iceCream.inHighStock(5));
+    }
 }

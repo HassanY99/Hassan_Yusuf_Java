@@ -5,11 +5,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class FarmerTest {
+public class AppTest {
 
-    Farmer farmer;
-    Constable constable;
-    Warrior warrior;
+    LeadCharacter farmer;
+    LeadCharacter constable;
+    LeadCharacter warrior;
 
     @Before
     public void setUp() throws Exception {
@@ -98,4 +98,5 @@ public class FarmerTest {
         assertEquals("Attack another character", warrior.getAbilities());
 
     }
+
 }

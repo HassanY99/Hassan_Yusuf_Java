@@ -30,8 +30,6 @@ public class ConverterApplicationTest {
         assertEquals("October", converterIf.convertMonth(10));
         assertEquals("November", converterIf.convertMonth(11));
         assertEquals("December", converterIf.convertMonth(12));
-
-
     }
 
     @Test

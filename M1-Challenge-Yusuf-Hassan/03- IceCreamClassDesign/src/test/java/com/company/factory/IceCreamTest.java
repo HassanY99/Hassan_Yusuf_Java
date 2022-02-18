@@ -30,4 +30,12 @@ public class IceCreamTest {
         assertEquals(4.01, iceCream.profit(iceCream.getSaleOfPrice(), iceCream.getProductionCost()), 0.01);
 
     }
+
+    @Test
+    public void shouldGetTheMostPopularFlavor() {
+        assertEquals(true, iceCream.mostPopularFlavor("Chocolate"));
+        assertEquals(true, iceCream.mostPopularFlavor("Mango"));
+        assertEquals(false, iceCream.mostPopularFlavor("Strawberry"));
+        assertEquals(false, iceCream.mostPopularFlavor("Peach"));
+    }
 }
